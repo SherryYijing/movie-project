@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css"
+      integrity="sha512-JApjWRnfonFeGBY7t4yq8SWr1A6xVYEJgO/UMIYONxaR3C9GETKUg0LharbJncEzJF5Nmiv+Pr5QNulr81LjGQ=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script type="module" src="script.js"></script>
+    <div class="navigation">
+      <img
+        alt="website logo"
+        src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
+        class="logo"
+      />
+      <!-- <button class="nav-button-home"> -->
+      <!-- <a href="index.html" style="color: black" class="nav-button" id="home">HOME</a>
+      <a href="liked.html" style="color: black" class="nav-button" id="liked">LIKED</a> -->
+      <button class="nav-button" id="home">HOME</button>
+      <button class="nav-button" id="liked">LIKED</button>
+    </div>
+
+    <label>
+      <select name="dropdown-menu" id="dropdown-menu">
+        <option selected>Popular</option>
+        <option>Now Playing</option>
+        <option>Top Rated</option>
+        <option>Upcoming</option>
+      </select>
+    </label>
+    <div class="prep-next-button">
+      <button class="prep-btn">Prep</button>
+      <span class="page-number">SpaceHolder</span>
+      <button class="next-btn">Next</button>
+    </div>
+    <div class="movie-container"></div>
+    <div class="popOut-window-container" style="display: none"></div>
+  </body>
+</html>
